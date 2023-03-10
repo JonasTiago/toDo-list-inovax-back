@@ -1,0 +1,40 @@
+{
+  "name": "todo-list-inovax-back",
+  "type": "module",
+  "description": "O projeto é uma simples, ToDo List.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonasTiago/toDo-list-inovax-back.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonasTiago/toDo-list-inovax-back/issues"
+  },
+  "homepage": "https://github.com/JonasTiago/toDo-list-inovax-back#readme",
+  "dependencies": {
+    "@prisma/client": "^4.11.0",
+    "@types/express": "^4.17.17",
+    "@types/node": "^18.14.6",
+    "cors": "^2.8.5",
+    "D": "^1.0.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "http-status": "^1.6.2",
+    "joi": "^17.7.0",
+    "prisma": "^4.11.0",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "nodemon": "^2.0.20",
+    "typescript": "^4.9.5"
+  }
+}
